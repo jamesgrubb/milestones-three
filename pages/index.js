@@ -32,12 +32,7 @@ export default function Home() {
 			<main className={styles.main}>
 				<form onSubmit={handleOnSubmit}>
 					<label htmlFor='milestone'>Enter your milestone</label>
-					<input
-						type='text'
-						name='milestone'
-						name='milestone'
-						id='milestone'
-					/>
+					<input type='text' name='milestone' id='milestone' />
 				</form>
 			</main>
 

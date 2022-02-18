@@ -15,7 +15,11 @@ export const getServerSideProps = async ({ params }) => {
 const Affiliations = ({ characters, affiliationId }) => {
 	return (
 		<div>
-			<h1>Affiliation matching "{affiliationId}"</h1>
+			<h1>
+				Affiliation matching {'"'}
+				{affiliationId}
+				{'"'}
+			</h1>
 			<ul>
 				{characters.map((character) => {
 					return (
