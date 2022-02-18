@@ -1,4 +1,3 @@
-import React from 'react';
 import { v2 as cloudinary } from 'cloudinary';
 
 export const getServerSideProps = async ({ params }) => {
@@ -8,7 +7,7 @@ export const getServerSideProps = async ({ params }) => {
 		api_secret: process.env.CLOUDINARY_SECRET,
 		secure: true,
 	});
-	const milestone = cloudinary.video('Milestones/Video/Main', {
+	const milestone = cloudinary.video('Milestones/Video/Dancing', {
 		autoplay: 'autoplay',
 		// width: 960,
 		// height: 540,
