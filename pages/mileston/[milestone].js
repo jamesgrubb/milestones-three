@@ -27,7 +27,7 @@ export const getServerSideProps = async ({ params }) => {
 				background: 'red',
 			},
 			{
-				color: 'black',
+				color: 'hotpink',
 				overlay: {
 					font_family: 'Bogam.otf',
 					font_size: 300,
